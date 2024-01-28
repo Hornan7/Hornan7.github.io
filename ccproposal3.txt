@@ -1,0 +1,10 @@
+It is with great joy that all my Constitutional Committee tests are completed. I therefore give up my place to Martin from the stake Pool ATADA so that he can test his work for HW ledger wallets. 
+I thank you very much for agreeing to play the game of "temporary dictatorship" and we would never have succeeded in performing our tests in such a short period of time if that had not been the case. 
+These tests and the scripts used for those tests are all open source and available on my “Testnet_Scenario” repository:
+https://github.com/Hornan7/Testnet_Scenarios
+
+Of the 3 CC-cold key pairs that I have, I will remove 2 of them from the Committee State using this "Update Committee" governance action and the 3rd cc-key-hash will be removed using a "Resignation certificate".
+I sincerely hope that the community can benefit from the knowledge we have gained from these tests.
+
+Always with enthusiasm, your servant (and former dictator),
+--Mike Hornan
