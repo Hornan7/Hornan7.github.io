@@ -1,2 +1,3 @@
 ### Withdrawing funds to test a Batch voting script.
 For most peaple who are not going to read that, I will use this money to submit many governance action indexes to test my batch voting scripts.
+this money will not be delegated to any stake pools or Dreps
