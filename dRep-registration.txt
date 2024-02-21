@@ -1,0 +1,9 @@
+The ADAO SanchoNet DRep
+First DRep MultiSig on Cardano
+
+DAO DRep Contributors:
+Mike Hornan - ABLE Pool
+Riley Kilgore - Summon Platform
+Adam Rusch - Summon Platform
+
+All DRep Decisions made by group consensus. Two of three signatures required to cast a DRep vote. If any member calls for veto, no vote will be cast by the others.
