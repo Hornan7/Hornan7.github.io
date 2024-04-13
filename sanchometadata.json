@@ -2,6 +2,6 @@
   "name": "Able Stake Pool",
   "description": "Able Pool On Sancho Testnet",
   "ticker": "ABLE",
-  "homepage": "https://able-pool.io"
+  "homepage": "https://able-pool.io",
   "extended": "https://hornan7.github.io/extended.json"
 }
