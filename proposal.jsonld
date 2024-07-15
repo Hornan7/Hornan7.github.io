@@ -48,9 +48,9 @@
   },
   "body": {
     "title": "Treasury voting test",
-    "abstract": "Testing out if I can vote with a DRep right after HardforkInitiation",
-    "motivation": "I have been told that it would require 1 more Epoch after enactment for the ledger to consider the protocol version 10",
-    "rationale": "I just want to make sure this is the case and have some fun testing the features at the same time",
+    "abstract": "Testing to change the DRep deposit to 2 tADA",
+    "motivation": "I think 500 tADA is too expensive and should be lowered ",
+    "rationale": "There is not enough DReps who wants to register their credentials mainly because of the deposit price",
     "references": [
       {
         "@type": "Other",
