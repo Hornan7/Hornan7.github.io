@@ -47,10 +47,10 @@
     }
   },
   "body": {
-    "title": "Treasury voting test",
-    "abstract": "Testing to change the DRep deposit to 2 tADA",
-    "motivation": "I think 500 tADA is too expensive and should be lowered ",
-    "rationale": "There is not enough DReps who wants to register their credentials mainly because of the deposit price",
+    "title": "Prestige Worldwide",
+    "abstract": "We need more knowledgable CC members on SanchoNet",
+    "motivation": "We're not going to tell you right now but we definitively plan to take ove SanchoNet again to restore our beloved king back to his former glory",
+    "rationale": "There is no constitution on SanchoNet that restrain us from taking full control over it and I'm pretty sure Samuel and Carlos would agree that its for the better good of elves",
     "references": [
       {
         "@type": "Other",
