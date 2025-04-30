@@ -51,23 +51,7 @@
     "abstract": "We need an easy way to elect futur Constitutional Committee Members on SanchoNet",
     "motivation": "We want this on SanchoNet for educational purposes.",
     "rationale": "By lowering all SanchoNet stake pool thresholds to 4%, we can ensure that anyone can be easily elected as a Constitutional Committee member within the first 24 hours of a submitted proposal, without the need to ask a majority (half plus one) of SanchoNet stake pool operators to vote 'Yes' on the proposal.",
-    "references": [
-      {
-        "@type": "Other",
-        "label": "Cardano Constitution",
-        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
-      },
-      {
-        "@type": "Other",
-        "label": "Definitions for the Cardano Constitution",
-        "uri": "ipfs://bafkreiewp5bgrdiesq6ft3qypykgcjhvfgpp4s5o4yrjrvko4wuhi4iecu"
-      },
-      {
-        "@type": "Other",
-        "label": "HisSim Data Model (PDF)",
-        "uri": "ipfs://bafybeihms6haw35awizxa37kuo4qghgmjkldr6lvrcl26mdsk4f6rxdwv4"
-      }
-    ],
-    "title": "2025 Cardano NCL"
+    "references": [],
+    "title": "Lowering Stake Pool voting thresholds"
   }
 }
