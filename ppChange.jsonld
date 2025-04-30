@@ -1,64 +1,73 @@
 {
   "@context": {
-    "@language": "en",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
-    "hashAlgorithm": "CIP100:hashAlgorithm",
-    "body": {
-      "@id": "CIP108:body",
+    "authors": {
+      "@container": "@set",
       "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@context": {
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature",
+            "witnessAlgorithm": "CIP100:witnessAlgorithm"
+          },
+          "@id": "CIP100:witness"
+        }
+      },
+      "@id": "CIP100:authors"
+    },
+    "body": {
+      "@context": {
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale",
         "references": {
-          "@id": "CIP108:references",
           "@container": "@set",
           "@context": {
             "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
             "Other": "CIP100:OtherReference",
             "label": "CIP100:reference-label",
-            "uri": "CIP100:reference-uri",
             "referenceHash": {
-              "@id": "CIP108:referenceHash",
               "@context": {
-                "hashDigest": "CIP108:hashDigest",
-                "hashAlgorithm": "CIP100:hashAlgorithm"
-              }
-            }
-          }
+                "hashAlgorithm": "CIP100:hashAlgorithm",
+                "hashDigest": "CIP108:hashDigest"
+              },
+              "@id": "CIP108:referenceHash"
+            },
+            "uri": "CIP100:reference-uri"
+          },
+          "@id": "CIP108:references"
         },
-        "title": "CIP108:title",
-        "abstract": "CIP108:abstract",
-        "motivation": "CIP108:motivation",
-        "rationale": "CIP108:rationale"
-      }
+        "title": "CIP108:title"
+      },
+      "@id": "CIP108:body"
     },
-    "authors": {
-      "@id": "CIP100:authors",
-      "@container": "@set",
-      "@context": {
-        "name": "http://xmlns.com/foaf/0.1/name",
-        "witness": {
-          "@id": "CIP100:witness",
-          "@context": {
-            "witnessAlgorithm": "CIP100:witnessAlgorithm",
-            "publicKey": "CIP100:publicKey",
-            "signature": "CIP100:signature"
-          }
-        }
-      }
-    }
+    "hashAlgorithm": "CIP100:hashAlgorithm"
   },
   "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "title": "Decrease Treasury Tax from 20% to 10%",
-    "abstract": "This governance action seeks to be similar to the on we have on Mainnet.",
-    "motivation": "These guys thinks they are so cool because they managed to pull this off. But we want to be cool too so might as well do the same for learning purposes",
-    "rationale": "Some do not know how to do this and believe that they should, so lets do it.",
+    "abstract": "We need an easy way to elect futur Constitutional Committee Members on SanchoNet",
+    "motivation": "We want this on SanchoNet for educational purposes.",
+    "rationale": "By lowering all SanchoNet stake pool thresholds to 4%, we can ensure that anyone can be easily elected as a Constitutional Committee member within the first 24 hours of a submitted proposal, without the need to ask a majority (half plus one) of SanchoNet stake pool operators to vote 'Yes' on the proposal.",
     "references": [
       {
         "@type": "Other",
-        "label": "Dr.Evil",
-        "uri": "https://www.youtube.com/watch?v=7edeOEuXdMU"
+        "label": "Cardano Constitution",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "Other",
+        "label": "Definitions for the Cardano Constitution",
+        "uri": "ipfs://bafkreiewp5bgrdiesq6ft3qypykgcjhvfgpp4s5o4yrjrvko4wuhi4iecu"
+      },
+      {
+        "@type": "Other",
+        "label": "HisSim Data Model (PDF)",
+        "uri": "ipfs://bafybeihms6haw35awizxa37kuo4qghgmjkldr6lvrcl26mdsk4f6rxdwv4"
       }
-    ]
+    ],
+    "title": "2025 Cardano NCL"
   }
 }
