@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "abstract": "We propose updating the constitution to align it with the mainnet version, while also adjusting the SPOs guardrail value to facilitate the ratification of specific governance actions. This adjustment is intended to provide a controlled environment for training and testing purposes.",
+    "motivation": "I’ve been having to bug the SanchoNet SPOs pretty frequently to vote on the Update Committees’ governance actions. Since we need to get those ratified ASAP, they’re not always available to vote when needed. Plus, having to ask them all the time can get a bit annoying for everyone involved.",
+    "rationale": "To enhance the efficiency of both governance and training, it's crucial to streamline the process of ratifying Update Committees' actions. Currently, frequent requests to SanchoNet SPOs for votes, coupled with their unpredictable availability, slow down the process. This not only delays decision-making but also impacts the ability to use these actions effectively for educational and testing purposes. By adjusting the SPOs guardrail value, we can ensure timely ratification while creating a more reliable environment for training and testing governance actions and protocol parameters.",
+    "references": [],
+    "title": "Update to the Constitution"
+  }
+}
