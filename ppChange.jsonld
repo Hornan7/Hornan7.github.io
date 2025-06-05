@@ -48,10 +48,10 @@
   "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "abstract": "We need an easy way to elect futur Constitutional Committee Members on SanchoNet",
-    "motivation": "We want this on SanchoNet for educational purposes.",
-    "rationale": "By lowering all SanchoNet stake pool thresholds to 4%, we can ensure that anyone can be easily elected as a Constitutional Committee member within the first 24 hours of a submitted proposal, without the need to ask a majority (half plus one) of SanchoNet stake pool operators to vote 'Yes' on the proposal.",
+    "abstract": "I want to control everything, for education purposes and to stop bothering SPOs all the time",
+    "motivation": "Because I said so",
+    "rationale": "I'm going to lower every single SPOs thresholds to 2% so I can control the thing. But i'm still open to test anything you guys would like to test in a very fast and efficient centralized way.",
     "references": [],
-    "title": "Lowering Stake Pool voting thresholds"
+    "title": "Further Centralizing SanchoNet."
   }
 }
