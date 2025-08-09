@@ -52,13 +52,13 @@
   },
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "summary": "",
-    "rationaleStatement": "",
-    "precedentDiscussion": "",
-    "counterargumentDiscussion": "",
+    "summary": "Unconstitutional",
+    "rationaleStatement": "There is no mention of an administrator in this governance action.",
+    "precedentDiscussion": "N-A",
+    "counterargumentDiscussion": "The fact that the stake address deposit is the same as the treasury found receiving address doesn't mean that the administrator didnt provide the deposit for the governance action",
     "internalVote": {
       "constitutional": 0,
-      "unconstitutional": 0,
+      "unconstitutional": 3,
       "abstain": 0,
       "didNotVote": 0
     },
