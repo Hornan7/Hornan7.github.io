@@ -1,33 +1,35 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIPXXX": "https://github.com/Ryun1/CIPs/tree/e56f704918061e63ce2076cc3644a946b286c8d1/CIP-governance-metadata-cc-rationale/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
     "body": {
-      "@id": "CIP100:body",
+      "@id": "CIPXXX:body",
       "@context": {
         "references": {
-          "@id": "CIP100:references",
+          "@id": "CIPXXX:references",
           "@container": "@set",
           "@context": {
             "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
             "Other": "CIP100:OtherReference",
             "label": "CIP100:reference-label",
             "uri": "CIP100:reference-uri",
-            "referenceHash": {
-              "@id": "CIP100:referenceHash",
-              "@context": {
-                "hashDigest": "CIP100:hashDigest",
-                "hashAlgorithm": "CIP100:hashAlgorithm"
-              }
-            }
+            "relevantArticles": "CIPXXX:references"
           }
         },
-        "comment": "CIP100:comment",
-        "externalUpdates": {
-          "@id": "CIP100:externalUpdates",
+        "summary": "CIPXXX:summary",
+        "rationaleStatement": "CIPXXX:rationaleStatement",
+        "precedentDiscussion": "CIPXXX:precedentDiscussion",
+        "counterargumentDiscussion": "CIPXXX:counterargumentDiscussion",
+        "conclusion": "CIPXXX:conclusion",
+        "internalVote": {
+          "@id": "CIPXXX:internalVote",
           "@context": {
-            "title": "CIP100:update-title",
-            "uri": "CIP100:uri"
+            "constitutional": "CIPXXX:constitutional",
+            "unconstitutional": "CIPXXX:unconstitutional",
+            "abstain": "CIPXXX:abstain",
+            "didNotVote": "CIPXXX:didNotVote"
           }
         }
       }
@@ -48,9 +50,25 @@
       }
     }
   },
-  "authors": [],
+  "hashAlgorithm": "blake2b-256",
   "body": {
-    "comment": "This governance action aligns with the scope and principles of the Sancho Network."
+    "summary": "",
+    "rationaleStatement": "",
+    "precedentDiscussion": "",
+    "counterargumentDiscussion": "",
+    "internalVote": {
+      "constitutional": 0,
+      "unconstitutional": 0,
+      "abstain": 0,
+      "didNotVote": 0
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Cardano Constitution,
+        "uri": "https://ipfs.io/ipfs/bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      }
+    ]
   },
-  "hashAlgorithm": "blake2b-256"
+  "authors": []
 }
